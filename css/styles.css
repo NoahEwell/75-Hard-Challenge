@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(238, 238, 238);
     font-size: 18px;
+    margin: 0;
 }
 
 header > li {
@@ -20,24 +20,28 @@ h1, .hlink {
 .header-container {
     background-color: rgb(55, 58, 64);
     display: inline-block;
-    width: 100%
+    width: 100%;
 }
 
 .outer-container {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: rgb(104, 109, 118);
+    height: 5000px;
 }
 
 .inner-container {
-    background-color: rgb(104, 109, 118);
     color: rgb(238, 238, 238);
+
+    /* Center Content  */
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-container {
     display: inline-block;
     background-color: rgb(55, 58, 64);
     color: rgb(238, 238, 238);
+    
     width: 100%;
     text-align: center;
 }
