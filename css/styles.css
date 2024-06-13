@@ -1,12 +1,10 @@
 body {
-    font-size: 2rem;
     margin: 0;
     background-color: #FFFDE3;
 }
 
 .title-text {
     color: #CFE8A9;
-    font-size: 4rem;
     text-align: center;
 }
 
@@ -49,3 +47,44 @@ footer {
     color: #CFE8A9;
 }
 
+@media (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1201px) and (max-width: 1741px) {
+
+}
+
+@media (min-width: 1742px) {
+    body {
+        font-size: 2rem;
+    }
+    .title-text {
+        font-size: 4rem;
+    }
+    .outer-container {
+
+    }
+    .inner-container {
+
+    }
+    .inner-container-text {
+
+    }
+    .rightside-image {
+
+    }
+    .footer-container {
+
+    }
+    footer {
+
+    }
+    .title-footer {
+
+    }
+}
